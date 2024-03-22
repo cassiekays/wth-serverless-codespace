@@ -2,10 +2,10 @@
 	"version": "2.0.0",
 	"tasks": [
 		{
-			"label": "clean (functions)",
+			"label": "build (functions)",
 			"command": "dotnet",
 			"args": [
-				"clean",
+				"build",
 				"/property:GenerateFullPaths=true",
 				"/consoleloggerparameters:NoSummary"
 			],
